@@ -76,5 +76,7 @@ dependencies {
     implementation(libs.androidx.databinding.runtime)
     implementation(libs.androidx.swiperefreshlayout)
     implementation(libs.androidx.foundation)
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
+    implementation("io.coil-kt:coil-compose:2.0.0")
 
 }
